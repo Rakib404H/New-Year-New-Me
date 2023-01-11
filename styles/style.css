@@ -59,20 +59,30 @@ body {
 }
 /* faliure section.......................................... */
 .faliure-section{
-
+display: flex;
+align-items: center;
 }
 .faliure-img{
 
 }
-.faliure-text{
-
+.faliure-text i{
+color: rgb(29, 200, 17);
 }
 .faliure-title{
-
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
 }
 .faliure-description{
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
 }
 .faliure-checkmark{
-    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
 }

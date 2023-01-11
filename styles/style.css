@@ -1,7 +1,14 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFFFFF;
 }
 
 /* Header section................................. */
@@ -49,4 +56,23 @@
     width: 160px;
     border-radius: 5px;
     border: 0;
+}
+/* faliure section.......................................... */
+.faliure-section{
+
+}
+.faliure-img{
+
+}
+.faliure-text{
+
+}
+.faliure-title{
+
+}
+.faliure-description{
+
+}
+.faliure-checkmark{
+    
 }

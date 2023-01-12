@@ -59,11 +59,15 @@ body {
 }
 /* faliure section.......................................... */
 .faliure-section{
-display: flex;
-align-items: center;
+    display: flex;
+    place-items: center;
+    justify-content:space-around;
+    margin-right: auto;
+    margin-left: auto;
 }
-.faliure-img{
-
+.faliure-img {
+align-content: center;
+margin-top: 130px;
 }
 .faliure-text i{
 color: rgb(29, 200, 17);
@@ -73,16 +77,57 @@ color: rgb(29, 200, 17);
     font-size: 40px;
     line-height: 47px;
     color: #151414;
+    margin-bottom: 24px;
+    margin-top: 300px;
 }
 .faliure-description{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+    margin-bottom: 16px;
 }
 .faliure-checkmark{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+/* plan section.................................................. */
+.plan-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+
+margin-top: 130px;
+}
+.plan-section{
+    text-align: center;
+    
+    
+}
+.skill-container{
+display: flex;
+justify-content: space-around;
+margin: 50px 230px 130px 230px;
+
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+.skill-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #737272;
+}
+.watch{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
 }

@@ -150,6 +150,7 @@ body {
 
     background-image: url(../images/gradient1.png), url(../images/watch.png);
     color: #FFFFFF;
+    
 
 }
 
@@ -161,9 +162,9 @@ body {
     line-height: 47px;
     color: #FFFFFF;
     margin-bottom: 20px;
-    margin-top: 20px;
-
-
+}
+.text{
+    
 }
 
 .watch-container {
@@ -171,7 +172,7 @@ body {
     padding-left: 294px;
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
+    padding-top: 60px;
 }
 
 /* footer .............................. */

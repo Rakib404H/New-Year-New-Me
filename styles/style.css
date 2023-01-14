@@ -3,14 +3,14 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
-    border: 1px solid red;
 
 }
+
 body {
     width: 100%;
     min-height: 100vh;
     background-color: #FFFFFF;
-    
+
 }
 
 /* Header section................................. */
@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 100vh;
 
-    
+
 
 }
 
@@ -45,36 +45,40 @@ body {
     margin-top: 24px;
     margin-bottom: 32px;
     line-height: 26px;
-    
+
 }
 
 .button-primary {
     background: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
-    
+
     color: #005FAC;
     height: 64px;
     width: 160px;
     border-radius: 5px;
     border: 0;
 }
+
 /* faliure section.......................................... */
-.faliure-section{
+.faliure-section {
     display: flex;
     place-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-right: auto;
     margin-left: auto;
 }
+
 .faliure-img {
-align-content: center;
-margin-top: 130px;
+    align-content: center;
+    margin-top: 130px;
 }
-.faliure-text i{
-color: rgb(29, 200, 17);
+
+.faliure-text i {
+    color: rgb(29, 200, 17);
 }
-.faliure-title{
+
+.faliure-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -82,45 +86,52 @@ color: rgb(29, 200, 17);
     margin-bottom: 24px;
     margin-top: 300px;
 }
-.faliure-description{
+
+.faliure-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
     margin-bottom: 16px;
 }
-.faliure-checkmark{
+
+.faliure-checkmark {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
 }
+
 /* plan section.................................................. */
-.plan-title{
+.plan-title {
     font-weight: 700;
-font-size: 40px;
-color: #151414;
+    font-size: 40px;
+    color: #151414;
 
-margin-top: 130px;
+    margin-top: 130px;
 }
-.plan-section{
+
+.plan-section {
     text-align: center;
-    
-    
-}
-.skill-container{
-display: flex;
-justify-content: space-around;
-margin: 50px 230px 0px 230px;
+
 
 }
-.skill-title{
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 230px 0px 230px;
+
+}
+
+.skill-title {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
     color: #151414;
 }
-.skill-description{
+
+.skill-description {
     font-weight: 500;
     font-size: 25px;
     line-height: 29px;
@@ -128,38 +139,99 @@ margin: 50px 230px 0px 230px;
 
     color: #737272;
 }
-.call-section{
 
-width: 100%;
-margin: 130px 0;
-background-repeat: no-repeat;
-background-position: center, center;
-height: 300px;
-    border: none;
+.call-section {
+
+    width: 100%;
+    margin: 130px 0;
+    background-repeat: no-repeat;
+    background-position: center, center;
     height: 300px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 015 #005da2;
+
     background-image: url("/images/gradient1.png"), url("/images/watch.png");
     color: #FFFFFF;
-    display:;
-    justify-content: left;
-    align-items: center;
-}
 
 }
 
-.watch-text{
+
+
+.watch-text {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
+    margin-bottom: 20px;
+
+
+}
+
+.watch-container {
+    margin-right: 50%;
+    padding-left: 294px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+/* footer .............................. */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 130px 230px;
+    gap: 330px;
+}
+
+.futurre-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.future-desc1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 25px 0px;
+}
+
+.future-desc2,
+.future-desc3 {
+    font-weight: 400;
+    font-size: 16px;
     margin-bottom: 25px;
 }
 
-.watch-container{
-margin-right: 50%;
-padding-left: 294px;
-justify-content: center;
-align-items: center;
-margin-top: 55px;
+
+.future-container {}
+
+.pic {
+    margin-right: 10px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.subscribe-btn {
+    background: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #FFFFFF;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.subscribe-container input {
+    padding: 20px 160px 20px 20px;
+
+    background-color: #151414;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
